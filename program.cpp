@@ -1,4 +1,14 @@
 #include <iostream>
+#include <string>
+
+void displayQuotes()
+{
+  const std::string phrase1 = "Hello, World!";
+  const std::string phrase2 = "Good for health bad for education!";
+
+  std::cout << phrase1 << std::endl;
+  std::cout << phrase2 << std::endl;
+}
 
 int main()
 {
@@ -12,6 +22,11 @@ int main()
   - Gon
   - Yusuke 
   - Yu
-  - Shinji )";
+  - Shinji
+  
+  )";
+
+  displayQuotes();
+
   return 0;
 }
